@@ -19,6 +19,45 @@ Built to support **all TikTok Shop product categories** (Electronics & Gadgets, 
 
 ---
 
+## Platform Screenshots
+
+### 1. Main Dashboard & Production Readiness
+Overview of rendered 9:16 videos, verified affiliate products, active AI provider, Indonesian TTS voiceover status, queue & scheduler health, and real-time activity logs.
+
+![Main Dashboard](docs/screenshots/01-dashboard.png)
+
+### 2. AI Multi-Provider & Controlled Fallback (OpenRouter & Google Gemini)
+Encrypted API key storage (`AES-256-CBC` via `Laravel Crypt`), official model discovery, provider switching, and optional single-step fallback routing.
+
+![AI Providers Settings](docs/screenshots/02-ai-providers.png)
+
+### 3. Indonesian Voiceover & Text-to-Speech (Google Gemini TTS & Cloud TTS)
+Indonesian (`id-ID`) narration configuration using Google Gemini TTS (reusing the encrypted Gemini API key without requiring Google Cloud Billing) or Google Cloud TTS, with prebuilt voice characters and live FFmpeg-converted audio previews.
+
+![Voiceover and TTS Settings](docs/screenshots/03-voiceover-tts.png)
+
+### 4. Universal AI Script Generator & Voiceover Studio
+Multi-category script generation supporting 14 content formats, 10 marketing angles, *Research-Based* vs *First-Hand Experience* honesty controls, per-section regeneration, manual editing, and direct Gemini TTS voiceover playback.
+
+![Universal AI Script & Voiceover Studio](docs/screenshots/04-ai-script-voiceover-studio.png)
+
+### 5. Remotion v4 Video Producer & 9:16 Editor
+Interactive vertical `1080×1920` (`30 FPS`) video editor with 10 category-aware universal templates, adaptive visual themes, scene timeline & Ken Burns camera controls, integrated voiceover playback, and asynchronous Remotion render tracking.
+
+![Remotion Video Producer & Editor](docs/screenshots/05-video-editor-remotion.png)
+
+### 6. Universal Content Library & Human-in-the-Loop Approval
+Multi-category content pipeline with 10 status stages, 7-dimension filtering, voiceover/render indicators, inline metadata editing, and direct MP4 download.
+
+![Universal Content Library & Approval](docs/screenshots/06-content-library.png)
+
+### 7. Universal Affiliate Product Catalog & AI Research
+Multi-category TikTok Shop affiliate product research with transparent source labeling (`official_api` vs `manual_input`), AI opportunity analysis, and manual approval workflow.
+
+![Universal Affiliate Product Catalog](docs/screenshots/07-affiliate-products.png)
+
+---
+
 ## Technology Stack
 
 - **Backend:** Laravel 12 (`PHP 8.2+`), Modular Service Architecture (`app/Modules/`), Eloquent Policies
