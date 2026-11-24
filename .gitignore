@@ -1,0 +1,80 @@
+# Dependencies
+/vendor
+/node_modules
+/remotion/node_modules
+
+# Frontend & Remotion Build / Temporary Outputs
+/public/build
+/public/hot
+/public/storage
+/remotion/out
+/remotion/public/_staging/*
+
+# Environment files (exclude all variants except .env.example)
+.env
+.env.*
+!.env.example
+auth.json
+
+# Storage runtime, logs, cache, sessions, views, uploads, renders & backups
+/storage/*.key
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/cache/data
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/app/private/*
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/app/media/*
+/storage/app/renders/*
+/storage/app/tts/*
+/storage/app/credentials/*
+/storage/backups
+/storage/backups/*
+
+# Local database dumps, backups, keys & credentials
+*.sql
+*.sqlite
+*.sqlite3
+*.bundle
+*.bak
+*.pem
+*.key
+*.p12
+*.pfx
+*service-account*.json
+*credentials*.json
+
+# Testing & debug artifacts
+/.phpunit.cache
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+Homestead.json
+Homestead.yaml
+
+# Local IDE & AI agent folders
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+/.cursor
+/.claude
+
+# Local-only operational & security audit reports (contain account/ticket/ngrok metadata)
+/PHASE_4_1_PARTNER_CERTIFICATION_APPLICATION_REPORT.md
+/TIKTOK_PARTNER_DEVELOPER_QUALIFICATION_AUDIT.md
+/TIKTOK_PARTNER_SUPPORT_ESCALATION_REPORT.md
+/TIKTOK_SCOPE_AUDIT_REPORT.md
+/TIKTOK_SCOPE_FIX_REPORT.md
+/GITHUB_PUSH_SECURITY_REPORT.md
