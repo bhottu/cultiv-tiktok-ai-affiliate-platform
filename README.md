@@ -198,3 +198,10 @@ cd remotion && npx tsc --noEmit
 - [TIKTOK_OAUTH_SETUP.md](TIKTOK_OAUTH_SETUP.md)
 - [AFFILIATE_API_ACCESS_REQUIREMENTS.md](AFFILIATE_API_ACCESS_REQUIREMENTS.md)
 - [DEVELOPMENT_LOG.md](DEVELOPMENT_LOG.md)
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
