@@ -1,5 +1,9 @@
 # Cultiv TikTok AI Affiliate Platform
 
+<a href="https://saweria.co/natenasution" target="_blank">
+    <img src="https://github.com/bhottu/nate-social-media/assets/35356275/b0a6053d-4033-467f-8578-e99abed81710" alt="Saweria" width="200" />
+</a>
+
 **Cultiv TikTok AI Affiliate Platform** (*Cultiv Auto*) is an AI-powered SaaS platform for TikTok Shop affiliate product research, product opportunity analysis, AI marketing content generation, vertical 9:16 video production, and creator-authorized affiliate workflow management.
 
 Built to support **all TikTok Shop product categories** (Electronics & Gadgets, Fashion & Apparel, Beauty & Skincare, Health & Personal Care, Home & Living, Kitchen & Household, Automotive, Sports & Outdoor, Baby & Kids, Pet Supplies, Food & Beverage, Books & Education, Toys & Hobbies, Plants & Gardening, and General/Custom categories) with human-in-the-loop review and strict review-honesty controls (*Research-Based* vs *First-Hand Experience*).
